@@ -1,0 +1,13 @@
+<div>
+
+</div>
+<div class="row m-5">
+    <div class="col-md-12">
+        <div class="form-group">
+            <input [(ngModel)]="buscar" name="buscar" type="text" (keyup.enter)="buscarPelicula()" class="form-control" placeholder="Buscar pelicula">
+        </div>
+    </div>
+</div>
+
+
+<app-galeria [data]="data"></app-galeria>
